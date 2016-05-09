@@ -192,6 +192,10 @@ include_once "header.php";
               Array('investor', 'Invetidores'),
               Array('service', 'Consultores'),
               Array('hackerspace', 'Startup Studio'),
+              Array('softwarehouse', 'Software House'), 
+              Array('agenciadigital', 'Agência digital'), 
+              Array('advogado', 'Advogado'), 
+              Array('contador', 'Contador'), 
               Array('event', 'Eventos'),
               );
           $marker_id = 0;
@@ -446,7 +450,11 @@ include_once "header.php";
               Array('coworking', 'Coworking'),
               Array('investor', 'Investidores'),
               Array('service', 'Consultores'),
-              Array('hackerspace', 'Startup Studio')
+              Array('hackerspace', 'Startup Studio'),    
+              Array('softwarehouse', 'Software House'), 
+              Array('agenciadigital', 'Agência digital'), 
+              Array('advogado', 'Advogado'), 
+              Array('contador', 'Contador')
               );
           if($show_events == true) {
             // $types[] = Array('event', 'Events');
@@ -555,6 +563,10 @@ include_once "header.php";
                   <option value="investor">Investidor</option>
                   <option value="service">Consultor</option>
                   <option value="hackerspace">Startup Studio </option>
+                  <option value="softwarehouse">Software House </option>
+                  <option value="agenciadigital">Agência digital </option>
+                  <option value="advogado">Advogado </option>
+                  <option value="contador">Contador </option>
                 </select>
               </div>
             </div>
